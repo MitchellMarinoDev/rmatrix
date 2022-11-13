@@ -9,7 +9,7 @@ use termion::screen::AlternateScreen;
 
 const LINE_SPAWN_CHANCE: f32 = 0.1;
 const LINE_MAX_LEN: u32 = 15;
-const CHAR_OPTIONS: &str = "abcdefghijklmnopqrstuvwxyz1234567890-=!@#$%^&*()+[]{};',./<>?~|";
+const CHAR_OPTIONS: &str = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890-=!@#$%^&*()+[]{};',./<>?~|";
 
 #[derive(Copy, Clone, Eq, PartialEq, Debug, Hash, Default)]
 enum LineChar {

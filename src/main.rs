@@ -48,7 +48,7 @@ fn main() {
 
         matrix.tick();
         matrix.render(&mut screen);
-        thread::sleep(Duration::from_millis(60));
+        thread::sleep(Duration::from_millis(40));
         // TODO: add growing and shrinking of matrix
     }
 
